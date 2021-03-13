@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+}
+
+.homeText {
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.innerText {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #888;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+button {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 2rem 0 0;
+    padding: 0.5rem 2rem;
+    background-color: #ffffff;
+    font-size: 17px;
+}
+
+button a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+.homeImg {
+    display: flex;
+    flex: 0 1 60vw;
+    background-image: url(./img/photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#images {
+    max-width: 900px;
+    margin: auto;
+}
+
+#header {
+    background-color: #333;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#header h2 {
+    color: #fff;
+    display: inline-block;
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.caption {
+    background-color: rgb(253, 253, 253);
+    padding: 0.8rem;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+}
+
+#footer h3 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
